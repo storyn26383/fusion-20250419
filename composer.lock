@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "de2e12a115d13fc3adbe4b4c88ce0582",
+    "content-hash": "e2d83357c685c6705eef4c5e1b3d93ee",
     "packages": [
         {
             "name": "brick/math",
@@ -580,6 +580,76 @@
                 }
             ],
             "time": "2023-10-12T05:21:21+00:00"
+        },
+        {
+            "name": "fusionphp/fusion",
+            "version": "v0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fusion-php/fusion.git",
+                "reference": "4e2c8437d1ab68af7ae8151d5bc33cd579ca27f1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fusion-php/fusion/zipball/4e2c8437d1ab68af7ae8151d5bc33cd579ca27f1",
+                "reference": "4e2c8437d1ab68af7ae8151d5bc33cd579ca27f1",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^11",
+                "illuminate/process": "^11",
+                "illuminate/support": "^11",
+                "inertiajs/inertia-laravel": "^2.0",
+                "laravel/framework": "^11",
+                "php": "^8.2"
+            },
+            "require-dev": {
+                "nikic/php-parser": "^5.4",
+                "orchestra/testbench": "^9.5",
+                "phpunit/phpunit": "^10.5|^11"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Fusion\\Providers\\FusionServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "files": [
+                    "functions.php"
+                ],
+                "psr-4": {
+                    "Fusion\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aaron Francis",
+                    "email": "aarondfrancis@gmail.com"
+                }
+            ],
+            "description": "A Laravel package to bridge the gap between Laravel and Vue/React.",
+            "support": {
+                "issues": "https://github.com/fusion-php/fusion/issues",
+                "source": "https://github.com/fusion-php/fusion/tree/v0.1.0"
+            },
+            "funding": [
+                {
+                    "url": "https://aaronfrancis.com/backstage",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/aarondfrancis",
+                    "type": "github"
+                }
+            ],
+            "time": "2025-02-14T19:48:11+00:00"
         },
         {
             "name": "graham-campbell/result-type",

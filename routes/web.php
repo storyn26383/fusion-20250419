@@ -1,7 +1,5 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use Fusion\Fusion;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Fusion::pages();

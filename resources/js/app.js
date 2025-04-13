@@ -1,6 +1,7 @@
 import './bootstrap'
 import { createApp, h } from 'vue'
 import { createInertiaApp } from '@inertiajs/vue3'
+import fusion from '@fusion/vue/vue'
 
 createInertiaApp({
   resolve: name => {
@@ -10,6 +11,7 @@ createInertiaApp({
   setup({ el, App, props, plugin }) {
     createApp({ render: () => h(App, props) })
       .use(plugin)
+      .use(fusion)
       .mount(el)
   },
 })
